@@ -1,3 +1,5 @@
 a = int(input())
-b = a//4
-print("long "*b,"int",sep="")
+b = "int"
+for i in range(a//4):
+    b = "long " + b
+print(b)
