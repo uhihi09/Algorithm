@@ -5,4 +5,4 @@ def gcd(a,b):
     else:
         return gcd(b,a%b)
 a,b = map(int, sys.stdin.readline().split())
-print(10**gcd(a,b)//9)
+print("1"*gcd(a,b))
