@@ -1,0 +1,5 @@
+a = input()
+a = float(a)
+b = input()
+b = float(b)
+print(2*3.141592*b+a*2)
