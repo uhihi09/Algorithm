@@ -1,0 +1,6 @@
+a, b, c, d = map(int, input().split())
+
+if (a >= c / 2 and b >= d) or (a >= d / 2 and b >= c):
+    print("YES")
+else:
+    print("NO")
